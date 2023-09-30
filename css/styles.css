@@ -13,6 +13,20 @@ body  {
     color: var(--WHITE, #FFFFFF);
     color: var(--SLATE, #434455);
     font-size: 16px;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link-header {
+    text-decoration: none;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .link {
@@ -28,6 +42,17 @@ body  {
 .link:focus {
     color: var(--IRIS, #404bbf);
     text-decoration: none;
+}
+
+.link-address {
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    color: var(--SLATE, #434455);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-background {
@@ -82,14 +107,11 @@ body  {
 
 .header-secondary {
     font-weight: 500;
+    color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
 }
 
-ul{
-    list-style-type: none;
-}
-
-.list li button {
+.list-button {
     font-family: "Roboto", sans-serif;
     color: var(--IRIS, #4D5AE5);
     font-weight: 500;
@@ -104,16 +126,25 @@ ul{
     background:var(--CLOUD, #F4F4FD);   
 }
 
-.list li button:hover,
-.list li button:focus {
+.list button:hover,
+.list button:focus {
     background: var(--OCEAN, #404BBF);
     color: var(--WHITE, #FFF);
     cursor: pointer;
 }
 
 .terms {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.terms-portfolio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
@@ -122,9 +153,18 @@ ul{
     color: var(--SLATE, #434455);
     font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.terms-descrip-portf {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 .header-third {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -135,7 +175,9 @@ ul{
 .background {
     background-color: var(--CLOUD, #F4F4FD); 
 }
+
 .header-last {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -143,10 +185,7 @@ ul{
     text-transform: capitalize;
 }
 
-footer {
-    color: var(--CLOUD, #F4F4FD);
-    font-size: 16px;
-    font-weight: 400; 
+.footer-part {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
