@@ -33,6 +33,14 @@ body  {
     line-height: 116.667%
 }
 
+.logo_header {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%
+}
+
 .header-primary {
     color: var(--WHITE, #FFF);
     font-size: 56px;
