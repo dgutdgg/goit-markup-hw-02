@@ -113,11 +113,7 @@ body  {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em; 
-    border-radius: 4px; 
-    display: flex;
-    padding: 12px 24px;
     justify-content: center;
-    align-items: center; 
     background:var(--CLOUD, #F4F4FD);   
 }
 
@@ -182,11 +178,7 @@ body  {
 
 .photo-team {
     background: var(--WHITE, #FFF); 
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
     justify-content: center;
-    gap: 32px; 
 }
 
 .footer-part {
