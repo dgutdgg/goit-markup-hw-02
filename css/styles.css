@@ -44,7 +44,6 @@ body  {
 
 .link-address {
     color: var(--SLATE, #434455);
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -78,7 +77,6 @@ body  {
 .header-primary {
     color: var(--WHITE, #FFF);
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -100,12 +98,6 @@ body  {
     cursor: pointer
 }
 
-.header-secondary {
-    font-weight: 500;
-    color: var(--NAVY-BLUE, #2E2F42);
-    letter-spacing: 0.02em;
-}
-
 .list-button {
     font-family: "Roboto", sans-serif;
     color: var(--IRIS, #4D5AE5);
@@ -113,7 +105,6 @@ body  {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em; 
-    justify-content: center;
     background:var(--CLOUD, #F4F4FD);   
 }
 
@@ -178,7 +169,6 @@ body  {
 
 .photo-team {
     background: var(--WHITE, #FFF); 
-    justify-content: center;
 }
 
 .footer-part {
